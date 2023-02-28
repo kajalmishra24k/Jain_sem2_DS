@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 // perform the bubble sort
-void bubbleSort(int array[], int size) {
+void bubbleSort(int array[], int size)
+{
 	int step_no;
 	int temp;
 	
@@ -27,7 +28,8 @@ void bubbleSort(int array[], int size) {
 }
 
 // print array
-void printArray(int array[], int size) {
+void printArray(int array[], int size)
+{
   for (int i = 0; i < size; ++i)
   {
 	printf("%d  ", array[i]);
@@ -35,7 +37,8 @@ void printArray(int array[], int size) {
   printf("\n");
 }
 
-int main() {
+int main()
+{
   int data[] = {-12, -200, 0, 1, 5, -12, 300, -1, -5, 23};
   
   // find the array's length
