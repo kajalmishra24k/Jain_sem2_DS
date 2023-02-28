@@ -49,3 +49,14 @@ int main()
   printf("Sorted Array in Ascending Order:\n");
   printArray(data, size);
 }
+
+
+#if 0
+Algoritham Description:
+===========================
+bubbleSort(array)
+  for i <- 1 to indexOfLastUnsortedElement-1
+    if leftElement > rightElement
+      swap leftElement and rightElement
+end bubbleSort
+#endif
